@@ -8,5 +8,9 @@
     "start": "node index"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "url": "^0.11.3"
+  }
 }
