@@ -1,10 +1,13 @@
 const fs = require("fs");
+const os = require("os");
+
+console.log(os.cpus().length);
 
 
-// sync
+// sync -- blocking code
 //fs.writeFileSync("./test.txt", "Hello World");
 
-//async
+//async -- non-blocking code
 //fs.writeFile("./test.txt", "Hello World", (err) => {})
 
 
